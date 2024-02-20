@@ -13,8 +13,6 @@ This project was developed as a final paper project during my graduate course in
 
 - **Document Management:** AeroJudic allows for the efficient management of investigation-related documents, including reports, annexes, hearing transcripts, and sentencing documents, ensuring all necessary information is easily accessible and organized.
 
-- **Multi-database Support:** With support for both MySQL and MongoDB databases, AeroJudic offers flexibility in data storage and management, catering to different use cases and preferences.
-
 ## Technologies Used
 
 - **Frontend:** ReactJS
