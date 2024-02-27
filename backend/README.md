@@ -1,1 +1,1 @@
-https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+https://www.baeldung.com/spring-rest-openapi-documentation
