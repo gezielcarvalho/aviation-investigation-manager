@@ -17,8 +17,8 @@ public class OpenApiConfig {
     public OpenAPI baseOpenAPI(){
         return new OpenAPI().components(components)
                 .info(new Info()
-                        .title("Springboot_Swagger Project OpenAPI Docs")
-                        .version("1.0.0").description("Doc Description"));
+                        .title("AeroJudic OpenAPI Docs")
+                        .version("1.0.1").description("API Documentation"));
     }
 
 }
