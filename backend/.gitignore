@@ -76,3 +76,4 @@ secrets.yml
 .git-hooks/
 
 /.idea/
+/gradle/wrapper/gradle-wrapper.jar
