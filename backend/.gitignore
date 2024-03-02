@@ -75,6 +75,7 @@ secrets.yml
 .sts4-cache
 .git-hooks/
 
-/.idea/*
+.idea/*
+.idea/compiler.xml
 /gradle/wrapper/gradle-wrapper.jar
 
