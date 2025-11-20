@@ -13,8 +13,9 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-@SpringBootTest
+@SpringBootTest(classes = info.gezielcarvalho.aerojudic.Application.class)
 @AutoConfigureMockMvc
+@org.springframework.test.context.ActiveProfiles("test")
 public class HelloControllerTest {
 
 	@Autowired
@@ -24,6 +25,6 @@ public class HelloControllerTest {
 	public void getHello() throws Exception {
 		mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
 				.andExpect(status().isOk())
-				.andExpect(content().string(equalTo("Greetings from Spring Boot!")));
+				.andExpect(content().string(equalTo("AeroJudic: Aviation Investigation Manager - Backend")));
 	}
 }
