@@ -15,6 +15,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 @SpringBootTest(classes = info.gezielcarvalho.aerojudic.Application.class)
 @AutoConfigureMockMvc
+@org.springframework.test.context.ActiveProfiles("test")
 public class HelloControllerTest {
 
 	@Autowired
